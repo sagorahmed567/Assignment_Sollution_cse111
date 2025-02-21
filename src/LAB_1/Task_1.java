@@ -1,8 +1,8 @@
-package LAB;
+package LAB_1;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Assignment_1 {
+public class Task_1 {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
 
