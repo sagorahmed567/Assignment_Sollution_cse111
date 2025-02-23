@@ -9,8 +9,8 @@ public class Task_6 {
         System.out.print("Enter the length of the array: ");
         int len = sc.nextInt();
         int [] arr = new int[len];
-        // taking input in the array
 
+        // taking input in the array
         System.out.println("Enter the elements of the array: ");
         for(int i = 0; i < len; i++){
             arr[i] = sc.nextInt();
@@ -22,11 +22,11 @@ public class Task_6 {
 
         // In Outer loop I am taking  value from the start one by one and also initialized a boolean array of same length, and it's default value is false
         // first I'll update the boolean array which will change the boolean value to false if a Duplicate value is  found
-        // If false, it means it was counted before so I don't need to check again
+        // If false, it means it was counted before, so I don't need to check again
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (!bool[i] ){
-                count += 1;
+            if (!bool[i] ){ // Here bool[i] means true
+                count += 1; // it's keeping track of unique elements
                 for (int j = i + 1; j < arr.length; j++) {
                     if (arr[j] == arr[i]) {
                         bool[j] = true;
