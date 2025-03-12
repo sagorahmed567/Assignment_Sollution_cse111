@@ -12,12 +12,12 @@ public class task_9 {
         boolean tracker = true;
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                if (i == j) { // Check diagonal elements
+                if (i == j) {
                     if (arr[i][j] != 1) {
                         tracker = false;
                         break;
                     }
-                } else { // Check non-diagonal elements
+                } else {
                     if (arr[i][j] != 0) {
                         tracker = false;
                         break;
