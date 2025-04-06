@@ -11,5 +11,4 @@ public class StudentTester {
         String var = s1.accessProgram();
         System.out.println(var);
     }
-
 }

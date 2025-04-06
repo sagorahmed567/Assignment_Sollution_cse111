@@ -9,5 +9,4 @@ public class Player {
         this.age = age;
         this.total_match = total_match;
     }
-
 }
