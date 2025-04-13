@@ -1,7 +1,7 @@
 package LAB_1;
 
 import java.util.Scanner;
-public class task_4 {
+public class task_04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string in small letter: ");

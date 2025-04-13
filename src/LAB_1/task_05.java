@@ -2,7 +2,7 @@ package LAB_1;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class task_5 {
+public class task_05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the length of the array: ");

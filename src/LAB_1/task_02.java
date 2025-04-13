@@ -2,7 +2,7 @@ package LAB_1;
 
 import java.util.Scanner;
 
-public class task_2 {
+public class task_02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 2 numbers to of the range: ");
